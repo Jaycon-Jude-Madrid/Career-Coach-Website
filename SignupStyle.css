@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.signup_section {
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.forms_logo {
+  width: 80px;
+  cursor: pointer;
+}
+.forms_header > h2 {
+  font-size: 40px;
+  font-weight: 900;
+  color: #16163f;
+}
+.forms_header > p {
+  font-size: 15px;
+  line-height: 20px;
+}
+.title > h2 {
+  font-size: 20px;
+}
+.ustp {
+  color: #fcb316;
+}
+
+.forms_logo_content {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+.forms_header {
+  width: 510px;
+}
+
+.forms_inputs {
+  width: 350px;
+}
+.forms_inputs > form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 20px;
+}
+
+form > button {
+  padding: 10px;
+  background-color: #16163f;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #16163f;
+}
+
+form > button:hover {
+  background-color: white;
+
+  color: #fcb316;
+
+  border: 1px solid #16163f;
+}
+form > p {
+  padding-top: 20px;
+  font-size: 15px;
+  line-height: 20px;
+}
+.forms {
+  padding: 70px 70px 0px 70px;
+}
+/* for image */
+
+.signup_image {
+  width: 100%;
+
+  padding: 10px;
+}
+
+.background__image {
+  background-image: url("assets/SignupPage/Counseling.jpg");
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+label {
+  font-size: 16px;
+
+  color: #333333;
+  font-weight: 400;
+}
+
+input,
+select {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid gray;
+  background: transparent;
+
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+::placeholder {
+  font-weight: 500;
+  color: black;
+}
+
+select,
+select option {
+  color: black;
+  font-weight: 500;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* image contents */
+
+.image__contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+  padding: 50px;
+  width: 80%;
+}
+
+.image__contents_ {
+  padding: 10px;
+}
+.image__contents_ > h2 {
+  color: #fcb316;
+  font-size: 50px;
+}
+.image__contents_ > p {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.image__contents > button {
+  width: 300px;
+}
+
+.image__contents > button {
+  padding: 10px;
+  background-color: #16163f;
+  font-size: 15px;
+  font-weight: 900;
+  color: white;
+
+  cursor: pointer;
+
+  border: 1px solid #16163f;
+  margin-top: 20px;
+}
